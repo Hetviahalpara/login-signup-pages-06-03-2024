@@ -1,0 +1,20 @@
+.line::before{
+    content: "";
+    background-color: gray;
+    width: 250px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 0px;
+}
+.line::after{
+    content: "";
+    background-color: gray;
+    width: 250px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+}
